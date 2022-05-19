@@ -24,27 +24,39 @@
     <section id="pricing" class="pricing">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-12">
+          <h3 class="text-center">অনুগ্রহ করে আমাদের কিছু অনুদান পাঠান এবং প্রত্যেকের জন্য একটি ভাল জীবন গড়তে আমাদের সাহায্য করুন।</h3>
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="box">
-              <h3>
-                অনুগ্রহ করে আমাদের কিছু অনুদান পাঠান এবং প্রত্যেকের জন্য একটি ভাল জীবন গড়তে আমাদের সাহায্য করুন।</h3>
+              <img src="{{asset('assets/img/payment/bkash.jpg')}}" class="img-fluid" alt="">
               <h4><sup>Bkash No:</sup>01958666999<span> personal</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="{{route('home')}}" class="btn-buy">Back to Home</a>
-              </div>
             </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="box">
+              <img src="{{asset('assets/img/payment/rocket.jpg')}}" class="img-fluid" alt="">
+              <h4><sup>Rocket No:</sup>01958666999<span> personal</span></h4>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="box">
+              <img src="{{asset('assets/img/payment/nagad.jpg')}}" class="img-fluid" alt="">
+              <h4><sup>Nagad No:</sup>01958666999<span> personal</span></h4>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="box">
+              <img src="{{asset('assets/img/payment/sure-cash.jpg')}}" class="img-fluid" alt="">
+              <h4><sup>Sure Cash No:</sup>01958666999<span> personal</span></h4>
+            </div>
+          </div>
+          <div class="btn-wrap">
+            <a href="{{route('home')}}" class="btn-buy">Back to Home</a>
           </div>
         </div>
       </div>
     </section><!-- End Pricing Section -->
 
+   
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
       <div class="container">

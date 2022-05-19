@@ -1,0 +1,69 @@
+body {
+  background-image: url("../img/bg2.jpg");
+  background-color: #cccccc;
+ }
+.registering {
+  /* background-image: linear-gradient(#0984e3, #7efff5); */
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-left: 380px;
+  margin-right: 380px;
+  margin-bottom: 60px;
+  padding-left: 75px;
+  padding-top: 30px;
+  padding-right: 75px;
+  padding-bottom: 30px;
+  border: 1px solid #f3f3f5;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  display: block;
+  border : inset;
+  background : #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=date]:focus {
+  background-color: #ddd;
+  color: black;
+  outline: none;
+}
+
+select {
+  width: 100%;
+  margin-top: 5px !important;
+  margin-bottom: 12px !important;
+  padding: 5px;
+  border : inset;
+  border-radius: 5px;
+  background : #f1f1f1;
+}
+
+
+select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+@media screen and (max-width: 420px) {
+  .registering {
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    padding-left: auto;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    border: 1px solid #f3f3f5;
+    border-radius: 10px;
+    z-index: 999;
+  }
+}

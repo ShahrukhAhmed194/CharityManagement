@@ -19,6 +19,7 @@
             <li data-filter=".filter-bloodGroup">Blood Group Check</li>
             <li data-filter=".filter-mediCamp">Medical Camp</li>
             <li data-filter=".filter-bitoron">Bitoron</li>
+            <li data-filter=".filter-sports">Others</li>
             
           </ul>
         </div>

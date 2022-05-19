@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\JoinUsController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MemberRequestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,11 +28,25 @@ Route::get('contact',[PageController::class, 'goToContactPage'])->name('contact'
 Route::get('donate',[PageController::class, 'goToDonatePage'])->name('donate');
 Route::get('services',[PageController::class, 'goToServicesPage'])->name('services');
 Route::get('gallery',[PageController::class, 'goToGalleryPage'])->name('gallery');
-Route::get('signin',[PageController::class, 'goToAdminSignInPage'])->name('signin');
+Route::get('joinus',[PageController::class, 'goToJoinUsPage'])->name('joinus');
+Route::get('joinus1',[PageController::class, 'goToJoinUsPage1'])->name('joinus1')->middleware('protectNextJoinPage');
 
 
 Route::post('message',[MessageController::class, 'saveVisitorMessage'])->name('message');
+Route::post('joinus',[JoinUsController::class, 'saveJoinUs'])->name('save-joinus');
+Route::post('joinus1',[JoinUsController::class, 'saveJoinUs1'])->name('save-joinus1');
 
-Route::get('admin',[AdminController::class, 'showMessages'])->name('admin');
+Route::get('signin',[AdminController::class, 'goToAdminSignInPage'])->name('signin');
 Route::post('login',[AdminController::class, 'adminLogIn'])->name('login');
 Route::get('logout',[AdminController::class, 'adminLogOut'])->name('logout');
+
+
+
+Route::group(['middleware'=> ['checkAuthorization']], function(){
+
+    Route::get('admin',[AdminController::class, 'showMessages'])->name('admin');
+    Route::get('member-request',[MemberRequestController::class, 'showMemberRequests'])->name('requests');
+    Route::get('show-members',[MemberRequestController::class, 'showApprovedMembersList'])->name('members');
+    Route::get('accept-request/{nid}',[MemberRequestController::class, 'acceptMemberRequest'])->name('accept-request');
+    Route::get('delete-request/{nid}',[MemberRequestController::class, 'deleteMemberRequest'])->name('delete-request');
+});

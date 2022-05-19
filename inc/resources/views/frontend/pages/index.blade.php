@@ -1,10 +1,11 @@
 @extends('frontend.layouts.template')
 @section('content')
 
+
 <!-- ======= Hero Section ======= -->
 <section id="hero">
   <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
+    
     <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
     <div class="carousel-inner" role="listbox">
@@ -138,7 +139,6 @@
         <div class="col-md-6">
           <div class="icon-box">
             <i class="bi bi-card-checklist"></i>
-            <h4>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন</h4>
             <p>বর্তমান ছাত্র-ছাত্রীদের অন্তর্নিহিত সম্ভাবনাময় গুণাবলী বিকাশের পরিবেশ সৃষ্টিতে সহযোগিতা করা ও তাদের নৈতিক মূল্যবোধ, 
               দেশপ্রেম ও সামাজিক দায়িত্ববোধ জাগ্রত করে সুনাগরিক হিসেবে গড়ে তোলায় ভূমিকা রাখা।</p>
           </div>
@@ -146,7 +146,6 @@
         <div class="col-md-6 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="bi bi-card-checklist"></i>
-            <h4>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন</h4>
             <p>সৃষ্টিশীল সামাজিক মানুষ ও সুনাগরিক সৃষ্টির লক্ষ্যে স্কুল কলেজে বিভিন্ন কর্মশালা যেমন বিতর্ক, কুইজ, খেলাধুলা, সাংস্কৃতিক
                অনুষ্ঠান, বিনামূল্যে তথ্যসেবা ও সচেতনামূলক অনুষ্ঠানের আয়োজন করা।  </p>
           </div>
@@ -154,7 +153,6 @@
         <div class="col-md-6 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="bi bi-card-checklist"></i>
-            <h4>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন</h4>
             <p>ছাত্র-ছাত্রীসহ সকল শ্রেণীর মানুষের যে কোন প্রয়োজনে/বিপদে সর্বান্তক সহযোগিতা করা। বিশেষ করে ভর্তি পরিক্ষার্থীদের
                জন্য গাইডলাইন সুনিশ্চিত করা, দুস্থদের চিকিৎসার জন্য অর্থ এবং রক্তদান, ত্রাণ কার্যক্রম ইত্যাদি পরিচালনা করা।</p>
           </div>
@@ -162,7 +160,6 @@
         <div class="col-md-6 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="bi bi-card-checklist"></i>
-            <h4>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন</h4>
             <p>এলাকার মানুষের যেকোন উন্নয়নমুখী ও সৃজনশীল কাজে সংবর্ধনা প্রদান করা। </p>
           </div>
         </div>

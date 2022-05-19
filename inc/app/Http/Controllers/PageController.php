@@ -41,11 +41,15 @@ class PageController extends Controller
         return view('frontend.pages.gallery');
     }
 
-    public function goToAdminSignInPage(){
-        if(session()->has('name')){
-            return redirect()->route('admin');
-        }
-        return view('backend.pages.adminLogin');
+    public function goToJoinUsPage(){
+        
+        return view('frontend.pages.joinus');
     }
+
+    public function goToJoinUsPage1(){
+        
+        return view('frontend.pages.joinus1');
+    }
+ 
     
 }

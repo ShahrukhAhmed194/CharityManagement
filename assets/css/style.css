@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .dropdown ul {
   display: block;
-  position: absolute;
+  position: relative;
   left: 14px;
   top: calc(100% + 30px);
   margin: 0;
@@ -215,6 +215,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .navbar ul {
     display: none;
+  }
+
+  .navbar ul li{
+    display: block;
   }
 }
 .navbar-mobile {
@@ -409,6 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #df3740;
 }
+
 @media (max-width: 992px) {
   #hero {
     height: 100vh;
@@ -945,10 +950,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Donate 
 --------------------------------------------------------------*/
+.pay-img{
+  height: 50px;
+  width: 50px;
+}
 .pricing .box {
+  margin: 5px;
   padding: 20px;
+  height: 250px;
   background: #fff;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);

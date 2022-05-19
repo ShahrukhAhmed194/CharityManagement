@@ -6,9 +6,8 @@
           <div class="col-lg-6 col-md-6">
             <div class="footer-info">
               <h3>Sailor</h3>
-              <p>অফিস- ১ : হোল্ডিং-৯০, রোড নং- ২, কাটাসুর, শেরে-ই বাংলা রোড, মোহাম্মদপুর, ঢাকা-১২০৭<br>
-                 অফিস- ২ : ১০৯, কাটাসুর, শেরে-ই বাংলা রোড, মোহাম্মদপুর, ঢাকা-১২০৭<br><br>
-                <strong>মোবাইল নং : </strong> +৮৮০-১৫৯৫-২৪১০১২, +৮৮০-১৮৪৭-১২২৯৪৩<br>
+              <p>প্রধান কার্যালয় : হোল্ডিং-৯০, রোড নং- ২, কাটাসুর, শেরে-ই বাংলা রোড, মোহাম্মদপুর, ঢাকা-১২০৭<br>
+                <strong>মোবাইল নং : </strong>+০৮৮-০১৯৫৮-৪৫২৩৫১<br>
                 <strong>ই-মেইল :</strong> sreestywelfarefoundation@gmail.com<br>
               </p>
               
@@ -29,10 +28,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Media</h4>
               <div class="social-links mt-3">
-                <a href="https://twitter.com/iglwebltd" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://twitter.com/SreestyF" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="https://www.facebook.com/sreestywelfarefoundation" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://iglweb.com/web/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://iglweb.com/web/" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="https://www.instagram.com/sreestywelfarefoundation/" class="instagram"><i class="bx bxl-instagram"></i></a>
               </div>
           </div>
         </div>

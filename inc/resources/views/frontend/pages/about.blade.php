@@ -169,62 +169,39 @@
 
           <div class="col-lg-4 mt-4 mt-lg-2">
             <div class="member flex align-items-start">
-              <div class="pic"><img src="{{asset('assets/img/team/team-2.jpeg')}}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets/img/team/team-1.jpeg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>মোঃ আব্দুল জব্বার</h4>
-                <span><b>সভাপতি, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। <br></b></span>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div class="portfolio-wrap">
-                    <div class="portfolio-info">
-                      <div class="portfolio-links">
-                        <a href="{{asset('assets/img/team/team-2.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" 
-                        title="<b>অন্যান্য পদবী : </b>চেয়ারম্যান, সৃষ্টি ট্রেড এন্ড কমার্স লিমিটেড।<br>সহ-সভাপতি, বাংলাদেশ জাতীয় সাংবাদিক ফোরাম।<br>সংবাদদাতা, দৈনিক লাল সবুজের বাংলা।<br>
-                        <b>বাণী : </b> দিন বদলের লক্ষ্যে অসহায়ত্বের পাশে আছি আমরা সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন পরিবার।  সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন জেল,থানা  এবং ওয়ার্ড ভিত্তিক ইউনিট গঠন পূর্বক সমগ্র বাংলাদেশে উয়নমূলক কাজ করে যাবো, এটাই আমাদের অঙ্গীকার। আমরাই পারি দেশ ও জাতিকে সমৃদ্ধ করতে।">More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <h4 class="px-3">মোঃ আব্দুল জব্বার</h4>
+                <span style="padding-left: 31px;"><b>সভাপতি, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। <br></b></span>
+                <button type="button" class="btn btn-primary btn-sm mx-4" data-toggle="modal" data-target="#exampleModalScrollable1">
+                  See More
+                </button> 
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-2">
             <div class="member flex align-items-start">
-              <div class="pic"><img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>মোঃ জাহিদ হাসান</h4>
-                <span><b>সাধারন সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b></span>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div class="portfolio-wrap">
-                    <div class="portfolio-info">
-                      <div class="portfolio-links">
-                        <a href="{{asset('assets/img/team/team-1.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" 
-                        title="<b>অন্যান্য পদবী : </b>সহ-ব্যবস্থাপনা পরিচালক, সৃষ্টি ট্রেড এন্ড কমার্স লিমিটেড।<br>সংবাদদাতা, দৈনিক লাল সবুজের বাংলা।<br>
-                        <b>বাণী : </b>আত্ম মানবতার সেবায় ও মানব কল্যানের লক্ষ্যে সাধারণ মানুষের দিন বদলের লক্ষ্যে অসহায়ত্বের পাশে আছি আমরা সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। সাধারণ মানুষ থেকে শুরু করে সকল পর্যায়ে সততা ও নীতি আদর্শের পক্ষে ইতিবাচক কর্মকান্ড, সেবা ও উন্নয়নমূলক কার্যক্রম পরিচালনা করছে। উক্ত কার্যকলাপে আপনাদের সহায়তা আমাদের একান্ত কাম্য।">More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>               
+                <h4 class="px-3">মোঃ জাহিদ হাসান</h4>
+                <span style="padding-left: 31px;"><b>সাধারন সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b></span>
+                <button type="button" class="btn btn-primary btn-sm mx-4" data-toggle="modal" data-target="#exampleModalScrollable2">
+                  See More
+                </button>         
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-2">
             <div class="member flex align-items-start">
-              <div class="pic"><img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
+              <div class="pic"><img style="height: 175px" src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>সারাবান তাহুরা সৃষ্টি</h4>
-                <span><b>কোষাধ্যক্ষ, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। <br></b></span>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div class="portfolio-wrap">
-                    <div class="portfolio-info">
-                      <div class="portfolio-links">
-                        <a href="{{asset('assets/img/team/team-3.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" 
-                        title=" <b>বাণী : </b>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন স্বেচ্ছাসেবার বিনিময়ে সুনাগরিক ও আদর্শ সমাজ গঠন, পরিচ্ছন্নতা ও পরিবেশ উন্নয়ন, বৃক্ষরোপন ও সৌন্দর্য বর্ধন, শিক্ষা ও দক্ষতা উন্নয়ন, খাদ্য বিতরণ ও হত-দরিদ্র অবস্থার উন্নয়ন, চিকিৎসা সেবায়, সামাজিক ও অবকাঠামো উন্নয়ন, মসজিদ ও মন্দির ভিত্তিক নানাবিধ উন্নয়নমূলক কার্যকান্ড পরিচালনা করবে। ">More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <h4 class="px-3">সারাবান তাহুরা সৃষ্টি</h4>
+                <span style="padding-left: 31px;"><b>কোষাধ্যক্ষ, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। <br></b></span>
+                <button type="button" class="btn btn-primary btn-sm mx-4" data-toggle="modal" data-target="#exampleModalScrollable3">
+                  See More
+                </button>                  
               </div>
             </div>
           </div>
@@ -233,18 +210,11 @@
             <div class="member flex align-items-start">
               <div class="pic"><img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>মোহাম্মদ শাহীন হাসান</h4>
-                <span><b>দপ্তর সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b></span>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div class="portfolio-wrap">
-                    <div class="portfolio-info">
-                      <div class="portfolio-links">
-                        <a href="{{asset('assets/img/team/team-4.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                         title="<b>দপ্তর সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b> ">More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>               
+                <h4 class="px-3">মোহাম্মদ শাহীন হাসান</h4>
+                <span style="padding-left: 31px;"><b>দপ্তর সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b></span>
+                <button type="button" class="btn btn-primary btn-sm mx-4" data-toggle="modal" data-target="#exampleModalScrollable4">
+                  See More
+                </button>                
               </div>
             </div>
           </div>
@@ -253,23 +223,125 @@
             <div class="member flex align-items-start">
               <div class="pic"><img src="{{asset('assets/img/team/team-5.jpg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>মোঃ রায়হান খান</h4>
-                <span><b>যুগ্ন সাধারণ সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b></span>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div class="portfolio-wrap">
-                    <div class="portfolio-info">
-                      <div class="portfolio-links">
-                        <a href="{{asset('assets/img/team/team-5.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" 
-                        title="<b>যুগ্ন সাধারণ সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b> ">More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>               
+                  <h4 class="px-3">মোঃ রায়হান খান</h4>
+                  <span style="padding-left: 31px;"><b>যুগ্ন সাধারণ সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b></span>
+                  <button type="button" class="btn btn-primary btn-sm mx-4" data-toggle="modal" data-target="#exampleModalScrollable5">
+                    See More
+                  </button>                                     
+              </div>
+            </div>
+          </div>          
+ 
+        </div>
+
+        
+
+        <!-- Modals -->
+        <div class="modal fade" id="exampleModalScrollable1" tabindex="1" role="dialog" aria-labelledby="exampleModalScrollable1Title" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content ">
+              <div class="modal-header">
+                <img class="modal-title" id="exampleModalScrollable1Title" src="{{asset('assets/img/team/team-1.jpeg')}}" style="height:150px; width:150px; float:center" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <b>সভাপতি, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। <br></b><br>
+                <b>অন্যান্য পদবী : </b><br>চেয়ারম্যান, সৃষ্টি ট্রেড এন্ড কমার্স লিমিটেড। <br>সহ-সভাপতি, বাংলাদেশ জাতীয় সাংবাদিক ফোরাম।<br>সংবাদদাতা, দৈনিক লাল সবুজের বাংলা।<br><br>
+                <b>বাণী : </b><br> দিন বদলের লক্ষ্যে অসহায়ত্বের পাশে আছি আমরা সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন পরিবার।  
+                সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন জেল,থানা  এবং ওয়ার্ড ভিত্তিক ইউনিট গঠন পূর্বক সমগ্র বাংলাদেশে উয়নমূলক কাজ করে যাবো, এটাই আমাদের অঙ্গীকার। আমরাই পারি দেশ ও জাতিকে সমৃদ্ধ করতে।<br><br>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
-          
         </div>
+
+        <div class="modal fade" id="exampleModalScrollable2" tabindex="2" role="dialog" aria-labelledby="exampleModalScrollable2Title" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content ">
+              <div class="modal-header">
+                <img class="modal-title" id="exampleModalScrollable2Title" src="{{asset('assets/img/team/team-2.jpg')}}" style="height:150px; width:150px; float:center" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <b>সাধারন সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b><br>
+                <b>অন্যান্য পদবী : </b><br>সহ-ব্যবস্থাপনা পরিচালক, সৃষ্টি ট্রেড এন্ড কমার্স লিমিটেড। <br>সংবাদদাতা, দৈনিক লাল সবুজের বাংলা।<br><br>
+                <b>বাণী : </b><br>আত্ম মানবতার সেবায় ও মানব কল্যানের লক্ষ্যে সাধারণ মানুষের দিন বদলের লক্ষ্যে অসহায়ত্বের পাশে আছি আমরা সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। 
+                সাধারণ মানুষ থেকে শুরু করে সকল পর্যায়ে সততা ও নীতি আদর্শের পক্ষে ইতিবাচক কর্মকান্ড, সেবা ও উন্নয়নমূলক কার্যক্রম পরিচালনা করছে। উক্ত কার্যকলাপে আপনাদের সহায়তা আমাদের একান্ত কাম্য।<br><br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModalScrollable3" tabindex="3" role="dialog" aria-labelledby="exampleModalScrollable3Title" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content ">
+              <div class="modal-header">
+                <img class="modal-title" id="exampleModalScrollable3Title" src="{{asset('assets/img/team/team-3.jpg')}}" style="height:150px; width:150px; float:center" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <b>কোষাধ্যক্ষ, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন। <br><br></b>
+                <b>বাণী : </b><br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন স্বেচ্ছাসেবার বিনিময়ে সুনাগরিক ও আদর্শ সমাজ গঠন, পরিচ্ছন্নতা ও পরিবেশ উন্নয়ন, বৃক্ষরোপন ও সৌন্দর্য বর্ধন, শিক্ষা ও দক্ষতা উন্নয়ন, খাদ্য বিতরণ ও হত-দরিদ্র অবস্থার উন্নয়ন, চিকিৎসা সেবায়, সামাজিক ও অবকাঠামো উন্নয়ন, মসজিদ ও মন্দির ভিত্তিক নানাবিধ উন্নয়নমূলক কার্যকান্ড পরিচালনা করবে। 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModalScrollable4" tabindex="4" role="dialog" aria-labelledby="exampleModalScrollable4Title" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content ">
+              <div class="modal-header">
+                <img class="modal-title" id="exampleModalScrollable4Title" src="{{asset('assets/img/team/team-4.jpg')}}" style="height:150px; width:150px; float:center" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <b>দপ্তর সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b>                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModalScrollable5" tabindex="5" role="dialog" aria-labelledby="exampleModalScrollable5Title" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content ">
+              <div class="modal-header">
+                <img class="modal-title" id="exampleModalScrollable5Title" src="{{asset('assets/img/team/team-5.jpg')}}" style="height:150px; width:150px; float:center" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <b>যুগ্ন সাধারণ সম্পাদক, <br>সৃষ্টি ওয়েলফেয়ার ফাউন্ডেশন।<br></b>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
 
       </div>
     </section><!-- End Team Section -->
