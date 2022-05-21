@@ -56,6 +56,7 @@ class JoinUsController extends Controller
     public function saveJoinUs1(Request $request){
       
         $request->validate([
+            // 'nid'               => 'unique:next_joins',
             'mobile'            => 'required',
             'email'             => 'required',
             'blood_group'       => 'required',
@@ -98,8 +99,7 @@ class JoinUsController extends Controller
                 $picture->save();
             }
             
-            // DB::table('join_us')->where('nid', $nid)->update(['image' => $image]);
-
+            // $request->session()->flush();
             $request->session()->flash('message', "Your Registration Is Complete." );
             return redirect()->route('joinus');
 

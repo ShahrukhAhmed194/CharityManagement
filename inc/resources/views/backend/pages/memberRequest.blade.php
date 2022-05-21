@@ -11,7 +11,7 @@
           <img src="{{asset('assets/img/FoundationLogo.png')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Sristry Foundation</a>
+          <a href="{{route('admin')}}" class="d-block">Sristry Foundation</a>
         </div>
       </div>
 
@@ -20,7 +20,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item menu-open">
             <a href="{{route('admin')}}" class="nav-link ">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-box"></i>
               <p>
                 Comment Box
               </p>
@@ -28,7 +28,7 @@
           </li>
           <li class="nav-item menu-open">
             <a href="{{route('requests')}}" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-handshake"></i>
               <p>
                 Member Request
               </p>
@@ -36,7 +36,7 @@
           </li>
           <li class="nav-item menu-open">
             <a href="{{route('members')}}" class="nav-link ">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-user-alt"></i>
               <p>
                 Member List
               </p>
@@ -76,14 +76,14 @@
                 @foreach($list1 as $key => $value)
                   <tr>
                     
-                    <td class="text-center">{{$list1[$key]->name}}</td>
+                    <td class="text-center"><img width="111px" src="{{asset('inc/storage/app/public/profile')}}/{{$list1[$key]->image}}" alt="No Image."/></td>
                     <td class="text-center">{{$list1[$key]->nid}}</td>
                     <td class="text-center">{{$list1[$key]->gender}}</td>
                     <td class="text-center">{{$list1[$key]->qualification}}</td>                                     
                     <td class="text-center">{{$list1[$key]->occupation}}</td>                                     
                     <td class="text-center"> 
-                      <a type="button" class="btn btn-outline-success btn-sm" href="{{route('accept-request',['nid' =>$list1[$key]->nid ])}}">Accept</a>
-                      <a type="button" class="btn btn-outline-danger btn-sm" href="{{route('delete-request',['nid' =>$list1[$key]->nid ])}}">Delete</a>
+                      <a type="button" class="btn btn-outline-success btn-sm" href="{{route('accept.request',['nid' =>$list1[$key]->nid ])}}">Accept</a>
+                      <a type="button" class="btn btn-outline-danger btn-sm" href="{{route('delete.request',['nid' =>$list1[$key]->nid ])}}">Delete</a>
                     </td>                                     
                   </tr>
                 @endforeach

@@ -6,10 +6,12 @@ $nid = session('nid');
 @section('content')
 <fieldset class="registering " >
     <h3 class="text-center ">Registration Form</h3>
-    <form action='{{ route('save-joinus1') }}' method="POST" enctype="multipart/form-data">
+    <form action='{{ route('save.joinus1') }}' method="POST" enctype="multipart/form-data">
         @csrf
         <input type="hidden" id="nid" name="nid" value="{{$nid}}">
-
+        @error('nid')
+            <div class="alert alert-danger">{{ $nid.$message }}</div>
+        @enderror
         <div class="control-group">
             <label class="control-label" for="mobile">Mobile</label>
             <input id="mobile" class="block mt-1 w-full" type="tel" name="mobile" value="{{old('mobile')}}" required autofocus autocomplete="mobile" />

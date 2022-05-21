@@ -11,7 +11,7 @@
           <img src="{{asset('assets/img/FoundationLogo.png')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Sristry Foundation</a>
+          <a href="{{route('admin')}}" class="d-block">Sristry Foundation</a>
         </div>
       </div>
 
@@ -20,7 +20,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item menu-open">
             <a href="{{route('admin')}}" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-box"></i>
               <p>
                 Comment Box
               </p>
@@ -28,7 +28,7 @@
           </li>
           <li class="nav-item menu-open">
             <a href="{{route('requests')}}" class="nav-link ">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-handshake"></i>
               <p>
                 Member Request
               </p>
@@ -36,7 +36,7 @@
           </li>
           <li class="nav-item menu-open">
             <a href="{{route('members')}}" class="nav-link ">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-user-alt"></i>
               <p>
                 Member List
               </p>
@@ -59,10 +59,11 @@
              <table class="table">
               <thead class="thead-dark">
                 <tr>
-                  <th scope="col-sm-2">Name</th>
-                  <th scope="col-sm-2">Email</th>
-                  <th scope="col-sm-2">Subject</th>
-                  <th scope="col-sm-2">Message</th>
+                  <th class="text-center" scope="col-sm-2">Name</th>
+                  <th class="text-center" scope="col-sm-2">Email</th>
+                  <th class="text-center" scope="col-sm-2">Subject</th>
+                  <th class="text-center" scope="col-sm-2">Message</th>
+                  <th class="text-center" scope="col-sm-2">Action</th>
                 </tr>
               </thead>
               {{-- {{$infos}} --}}
@@ -72,10 +73,13 @@
               @foreach($infos as $info)
               <tr>
                 {{-- {{dd($skill)}} --}}
-                <td>{{$info->name}}</td>
-                <td>{{$info->email}}</td>
-                <td>{{$info->subject}}</td>
-                <td>{{$info->message}}</td>
+                <td class="text-center">{{$info->name}}</td>
+                <td class="text-center">{{$info->email}}</td>
+                <td class="text-center">{{$info->subject}}</td>
+                <td class="text-justify">{{$info->message}}</td>
+                <td>
+                <a type="button" class="btn btn-outline-danger btn-sm" href="{{route('delete.message',['id' =>$info->id ])}}">Delete</a>
+                </td>
               </tr>
               @endforeach
               </tbody>

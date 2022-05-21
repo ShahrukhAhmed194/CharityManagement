@@ -4,11 +4,11 @@
 @section('content')
 
 <fieldset class="registering " >
-    <h3 class="text-center ">Registration Form</h3>
+    <h3 class="text-center " >Registration Form</h3>
     @if(session('message'))
       <h3 class="alert alert-danger"> {{session('message')}} </h3>
     @endif
-    <form action='{{ route('save-joinus') }}' method="POST">
+    <form action='{{ route('save.joinus') }}' method="POST">
         @csrf
         <div class="control-group">
             <label class="control-label" for="name">Name</label>
