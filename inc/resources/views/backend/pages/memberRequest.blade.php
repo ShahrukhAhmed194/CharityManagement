@@ -77,6 +77,7 @@
                   <tr>
                     
                     <td class="text-center"><img width="111px" src="{{asset('inc/storage/app/public/profile')}}/{{$list1[$key]->image}}" alt="No Image."/></td>
+                    <td class="text-center">{{$list1[$key]->name}}</td>
                     <td class="text-center">{{$list1[$key]->nid}}</td>
                     <td class="text-center">{{$list1[$key]->gender}}</td>
                     <td class="text-center">{{$list1[$key]->qualification}}</td>                                     

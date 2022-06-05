@@ -31,12 +31,12 @@
             <div class="info ">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>অবস্থান: দপ্তর : প্রধান কার্যালয়</h4>
-                <p>প্রধান কার্যালয় : হোল্ডিং-৯০, রোড নং- ২, কাটাসুর, শেরে-ই বাংলা রোড, মোহাম্মদপুর, ঢাকা-১২০৭</p>
+                <h4>অবস্থান/ দপ্তর/ প্রধান কার্যালয়</h4>
+                <p> হোল্ডিং-৯০, রোড নং- ২, কাটাসুর, শেরে-ই বাংলা রোড, মোহাম্মদপুর, ঢাকা-১২০৭</p>
               </div>
 
               <div class="email">
-                <i class="bi bi-envelope"></i>
+                <a href="https://www.sreestywelfarefoundation@gmail.com"><i class="bi bi-envelope"></i></a>
                 <h4>ইমেইল :</h4>
                 <p><a href="https://www.sreestywelfarefoundation@gmail.com">sreestywelfarefoundation@gmail.com</a></p>
               </div>

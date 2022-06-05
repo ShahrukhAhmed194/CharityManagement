@@ -74,13 +74,13 @@
                 
                   @foreach($list1 as $key => $value)
                   <tr>
-                    <td class="text-center"><img width="111px" src="{{asset('inc/storage/app/public/profile')}}/{{$list1[$key]->image}}" alt="No Image."/></td>
-                    <td class="text-center">{{$list1[$key]->name}}</td>
-                    <td class="text-center">{{$list1[$key]->nid}}</td>
-                    <td class="text-center">{{$list1[$key]->gender}}</td>
-                    <td class="text-center">{{$list1[$key]->qualification}}</td>                                     
-                    <td class="text-center">{{$list2[$key]->mobile}}</td>                                     
-                    <td class="text-center">  
+                    <td class="text-center"><img width="50px" src="{{asset('inc/storage/app/public/profile')}}/{{$list1[$key]->image}}" alt="No Image."/></td>
+                    <td class="text-center pt-4">{{$list1[$key]->name}}</td>
+                    <td class="text-center pt-4">{{$list1[$key]->nid}}</td>
+                    <td class="text-center pt-4">{{$list1[$key]->gender}}</td>
+                    <td class="text-center pt-4">{{$list1[$key]->qualification}}</td>                                     
+                    <td class="text-center pt-4">{{$list2[$key]->mobile}}</td>                                     
+                    <td class="text-center pt-4">  
                       <a type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModalScrollable_{{$list1[$key]->id}}" >Details</a>
                       <a type="button" class="btn btn-outline-danger btn-sm" href="{{route('delete.request',['nid' =>$list1[$key]->nid ])}}">Delete</a>
                     </td>                                     

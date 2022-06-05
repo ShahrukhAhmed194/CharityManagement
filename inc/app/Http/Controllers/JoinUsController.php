@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\JoinUs;
 use App\Models\NextJoin;
+use App\Rules\PhoneValidation;
 
 class JoinUsController extends Controller
 {
+   
     public function saveJoinUs(Request $request){
         $nid = strlen($request->nid);
         if($nid!=10 || $nid!=17){
@@ -20,6 +22,7 @@ class JoinUsController extends Controller
                 'nid' => 'required|numeric|unique:joinus'
             ]);
         }
+        
         $request->validate([
         'name' => 'required',
         'occupation' => 'required',
@@ -27,7 +30,7 @@ class JoinUsController extends Controller
         'post' => 'required',
         'qualification' => 'required',
         'gender' => 'required',
-        'height' => 'required|numeric',
+        'height' => 'required|numeric|min:91|max:200',
         'birth_mark' => 'required',
         'father_name' => 'required',
         'mother_name' => 'required',
@@ -42,7 +45,7 @@ class JoinUsController extends Controller
         $info->post               =      $request->post;
         $info->qualification      =      $request->qualification;
         $info->gender             =      $request->gender;
-        $info->height             =      $request->height;
+        $info->height             =      $request->height." centimeter";
         $info->birth_mark         =      $request->birth_mark;
         $info->father_name        =      $request->father_name;
         $info->mother_name        =      $request->mother_name;
@@ -54,10 +57,10 @@ class JoinUsController extends Controller
     }
 
     public function saveJoinUs1(Request $request){
-      
+        // dd($request->mobile);
         $request->validate([
             // 'nid'               => 'unique:next_joins',
-            'mobile'            => 'required',
+            'mobile'            => ['required',new PhoneValidation],
             'email'             => 'required',
             'blood_group'       => 'required',
             'marital_status'    => 'required',
@@ -65,7 +68,7 @@ class JoinUsController extends Controller
             'income'            => 'required|numeric',
             'present_address'   => 'required',
             'permanent_address' => 'required',
-            'birth_date'        => 'required'
+            'birth_date'        => 'required|before:today'
             
         ]);
             // dd($request->all());

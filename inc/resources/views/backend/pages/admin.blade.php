@@ -55,7 +55,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-12">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="text-center text-muted display-4">All Comments Sent By Users.</h1>
              <table class="table">
               <thead class="thead-dark">
                 <tr>

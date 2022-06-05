@@ -28,9 +28,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Media</h4>
               <div class="social-links mt-3">
-                <a href="https://twitter.com/SreestyF" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/sreestywelfarefoundation" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/sreestywelfarefoundation/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://twitter.com/SreestyF" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/sreestywelfarefoundation"target="_blank"  class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/sreestywelfarefoundation/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
               </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed and Devloped by <a href="https://iglweb.com/web/">IGL Web</a>
+        Designed and Devloped by <a href="https://iglweb.com/web/" target="_blank">IGL Web</a>
       </div>
     </div>
   </footer><!-- End Footer -->
